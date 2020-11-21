@@ -27,6 +27,7 @@
 </template>
 <script>
     import axios from 'axios';
+    import betico from '@/assets/betico.jpeg'
 
     export default {
     name: 'chat',
@@ -36,7 +37,8 @@
             {
             id: 'user1',
             name: 'Sky Restaurant',
-            imageUrl: 'https://avatars3.githubusercontent.com/u/1915989?s=230&v=4'
+            imageUrl: betico
+            // imageUrl: 'https://avatars3.githubusercontent.com/u/1915989?s=230&v=4'
             }
         ], // the list of all the participant of the conversation. `name` is the user name, `id` is used to establish the author of a message, `imageUrl` is supposed to be the user avatar.
         titleImageUrl: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0001-34.png',
